@@ -1,13 +1,14 @@
 {
-  "name": "proxy-pool",
+  "name": "proxy-pool-web",
   "version": "1.0.0",
-  "description": "ProxyPool - A proxy pool for web scraping",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "python proxyPool.py server",
-    "schedule": "python proxyPool.py schedule",
-    "test": "python test.py"
+    "dev": "node server.js",
+    "start": "node server.js"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
 }

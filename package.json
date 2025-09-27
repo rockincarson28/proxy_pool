@@ -1,0 +1,13 @@
+{
+  "name": "proxy-pool",
+  "version": "1.0.0",
+  "description": "ProxyPool - A proxy pool for web scraping",
+  "main": "index.js",
+  "scripts": {
+    "start": "python proxyPool.py server",
+    "schedule": "python proxyPool.py schedule",
+    "test": "python test.py"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
